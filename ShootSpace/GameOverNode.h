@@ -9,5 +9,8 @@
 #import <SpriteKit/SpriteKit.h>
 
 @interface GameOverNode : SKNode
++(instancetype) gameOverAtPosition: (CGPoint) position;
+
+- (void) performAnimation;
 
 @end

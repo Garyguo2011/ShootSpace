@@ -10,4 +10,7 @@
 
 @interface MachineNode : SKSpriteNode
 
++ (instancetype) machineAtPosition: (CGPoint) position;
+
+
 @end

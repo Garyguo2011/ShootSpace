@@ -8,6 +8,11 @@
 
 #import <SpriteKit/SpriteKit.h>
 
-@interface SpaceDogNode : SKSpriteNode
+typedef NS_ENUM(NSUInteger, SpaceDogType) {
+    SpaceDogTypeA = 0,
+    SpaceDogTypeB = 1
+};
 
+@interface SpaceDogNode : SKSpriteNode
++ (instancetype) spaceDogOfType: (SpaceDogType) type;
 @end

@@ -10,4 +10,7 @@
 
 @interface NinjaNode : SKSpriteNode
 
++ (instancetype) ninjaAtPosition: (CGPoint) position;
+- (void) performTap;
+
 @end

@@ -10,4 +10,6 @@
 
 @interface GroundNode : SKSpriteNode
 
++(instancetype) groundWithSize: (CGSize) size;
+
 @end

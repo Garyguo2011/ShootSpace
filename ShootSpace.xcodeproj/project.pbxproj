@@ -7,15 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		911C7C2B1A3912CD0060E04B /* ProjectileNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 911C7C2A1A3912CD0060E04B /* ProjectileNode.m */; };
+		911C7C2F1A391F3F0060E04B /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 911C7C2E1A391F3F0060E04B /* Utility.m */; };
+		911C7C321A39215A0060E04B /* SpaceDogNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 911C7C311A39215A0060E04B /* SpaceDogNode.m */; };
+		911C7C351A3926210060E04B /* GroundNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 911C7C341A3926210060E04B /* GroundNode.m */; };
+		912BF7C81A3954F5002FBE0C /* Damage.caf in Resources */ = {isa = PBXBuildFile; fileRef = 912BF7C41A3954F5002FBE0C /* Damage.caf */; };
+		912BF7C91A3954F5002FBE0C /* Explode.caf in Resources */ = {isa = PBXBuildFile; fileRef = 912BF7C51A3954F5002FBE0C /* Explode.caf */; };
+		912BF7CA1A3954F5002FBE0C /* Laser.caf in Resources */ = {isa = PBXBuildFile; fileRef = 912BF7C61A3954F5002FBE0C /* Laser.caf */; };
+		912BF7CB1A3954F5002FBE0C /* PressStart.caf in Resources */ = {isa = PBXBuildFile; fileRef = 912BF7C71A3954F5002FBE0C /* PressStart.caf */; };
+		912BF7CF1A3957E2002FBE0C /* GameOver.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 912BF7CC1A3957E2002FBE0C /* GameOver.mp3 */; };
+		912BF7D01A3957E2002FBE0C /* Gameplay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 912BF7CD1A3957E2002FBE0C /* Gameplay.mp3 */; };
+		912BF7D11A3957E2002FBE0C /* StartScreen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 912BF7CE1A3957E2002FBE0C /* StartScreen.mp3 */; };
+		912BF7D31A3957FB002FBE0C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 912BF7D21A3957FB002FBE0C /* AVFoundation.framework */; };
+		912BF7DA1A396246002FBE0C /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 912BF7D81A396246002FBE0C /* Explosion.sks */; };
+		912BF7DB1A396246002FBE0C /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 912BF7D91A396246002FBE0C /* spark.png */; };
 		918529D21A37CC9F00A5FEA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 918529D11A37CC9F00A5FEA7 /* main.m */; };
 		918529D51A37CC9F00A5FEA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 918529D41A37CC9F00A5FEA7 /* AppDelegate.m */; };
-		918529D81A37CC9F00A5FEA7 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 918529D71A37CC9F00A5FEA7 /* GameScene.m */; };
 		918529DA1A37CC9F00A5FEA7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 918529D91A37CC9F00A5FEA7 /* GameScene.sks */; };
 		918529DD1A37CC9F00A5FEA7 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 918529DC1A37CC9F00A5FEA7 /* GameViewController.m */; };
 		918529E01A37CC9F00A5FEA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 918529DE1A37CC9F00A5FEA7 /* Main.storyboard */; };
 		918529E21A37CC9F00A5FEA7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 918529E11A37CC9F00A5FEA7 /* Images.xcassets */; };
 		918529E51A37CC9F00A5FEA7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 918529E31A37CC9F00A5FEA7 /* LaunchScreen.xib */; };
 		918529F11A37CC9F00A5FEA7 /* ShootSpaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 918529F01A37CC9F00A5FEA7 /* ShootSpaceTests.m */; };
+		918529FB1A37CCD800A5FEA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 918529FA1A37CCD800A5FEA7 /* CoreGraphics.framework */; };
+		918529FD1A37CCE000A5FEA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 918529FC1A37CCE000A5FEA7 /* UIKit.framework */; };
+		918529FF1A37CCF600A5FEA7 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 918529FE1A37CCF600A5FEA7 /* SpriteKit.framework */; };
+		91852A011A37CD0100A5FEA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91852A001A37CD0100A5FEA7 /* Foundation.framework */; };
+		91852A051A37D5A900A5FEA7 /* GameTitleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 91852A041A37D5A900A5FEA7 /* GameTitleScene.m */; };
+		91852A081A37D9E200A5FEA7 /* GamePlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 91852A071A37D9E200A5FEA7 /* GamePlayScene.m */; };
+		91852A0C1A37F71800A5FEA7 /* Spritesa_01.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 91852A0B1A37F71800A5FEA7 /* Spritesa_01.atlas */; };
+		91852A0F1A37FA0000A5FEA7 /* MachineNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 91852A0E1A37FA0000A5FEA7 /* MachineNode.m */; };
+		91852A151A38251100A5FEA7 /* NinjaNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 91852A141A38251100A5FEA7 /* NinjaNode.m */; };
+		91B56CE01A3966EF005B42E9 /* HudNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B56CDF1A3966EF005B42E9 /* HudNode.m */; };
+		91B56CE31A397342005B42E9 /* GameOverNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B56CE21A397342005B42E9 /* GameOverNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +53,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		911C7C291A3912CD0060E04B /* ProjectileNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectileNode.h; sourceTree = "<group>"; };
+		911C7C2A1A3912CD0060E04B /* ProjectileNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectileNode.m; sourceTree = "<group>"; };
+		911C7C2D1A391F3F0060E04B /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		911C7C2E1A391F3F0060E04B /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		911C7C301A39215A0060E04B /* SpaceDogNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceDogNode.h; sourceTree = "<group>"; };
+		911C7C311A39215A0060E04B /* SpaceDogNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceDogNode.m; sourceTree = "<group>"; };
+		911C7C331A3926210060E04B /* GroundNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroundNode.h; sourceTree = "<group>"; };
+		911C7C341A3926210060E04B /* GroundNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroundNode.m; sourceTree = "<group>"; };
+		912BF7C41A3954F5002FBE0C /* Damage.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Damage.caf; sourceTree = "<group>"; };
+		912BF7C51A3954F5002FBE0C /* Explode.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Explode.caf; sourceTree = "<group>"; };
+		912BF7C61A3954F5002FBE0C /* Laser.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Laser.caf; sourceTree = "<group>"; };
+		912BF7C71A3954F5002FBE0C /* PressStart.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PressStart.caf; sourceTree = "<group>"; };
+		912BF7CC1A3957E2002FBE0C /* GameOver.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GameOver.mp3; sourceTree = "<group>"; };
+		912BF7CD1A3957E2002FBE0C /* Gameplay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Gameplay.mp3; sourceTree = "<group>"; };
+		912BF7CE1A3957E2002FBE0C /* StartScreen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StartScreen.mp3; sourceTree = "<group>"; };
+		912BF7D21A3957FB002FBE0C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		912BF7D81A396246002FBE0C /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		912BF7D91A396246002FBE0C /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 		918529CC1A37CC9F00A5FEA7 /* ShootSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShootSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		918529D01A37CC9F00A5FEA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		918529D11A37CC9F00A5FEA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		918529D31A37CC9F00A5FEA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		918529D41A37CC9F00A5FEA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		918529D61A37CC9F00A5FEA7 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
-		918529D71A37CC9F00A5FEA7 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
 		918529D91A37CC9F00A5FEA7 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		918529DB1A37CC9F00A5FEA7 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		918529DC1A37CC9F00A5FEA7 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
@@ -45,6 +85,23 @@
 		918529EA1A37CC9F00A5FEA7 /* ShootSpaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShootSpaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		918529EF1A37CC9F00A5FEA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		918529F01A37CC9F00A5FEA7 /* ShootSpaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShootSpaceTests.m; sourceTree = "<group>"; };
+		918529FA1A37CCD800A5FEA7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		918529FC1A37CCE000A5FEA7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		918529FE1A37CCF600A5FEA7 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		91852A001A37CD0100A5FEA7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		91852A031A37D5A900A5FEA7 /* GameTitleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameTitleScene.h; sourceTree = "<group>"; };
+		91852A041A37D5A900A5FEA7 /* GameTitleScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameTitleScene.m; sourceTree = "<group>"; };
+		91852A061A37D9E200A5FEA7 /* GamePlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePlayScene.h; sourceTree = "<group>"; };
+		91852A071A37D9E200A5FEA7 /* GamePlayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePlayScene.m; sourceTree = "<group>"; };
+		91852A0B1A37F71800A5FEA7 /* Spritesa_01.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Spritesa_01.atlas; sourceTree = "<group>"; };
+		91852A0D1A37FA0000A5FEA7 /* MachineNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MachineNode.h; sourceTree = "<group>"; };
+		91852A0E1A37FA0000A5FEA7 /* MachineNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MachineNode.m; sourceTree = "<group>"; };
+		91852A131A38251100A5FEA7 /* NinjaNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NinjaNode.h; sourceTree = "<group>"; };
+		91852A141A38251100A5FEA7 /* NinjaNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NinjaNode.m; sourceTree = "<group>"; };
+		91B56CDE1A3966EF005B42E9 /* HudNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HudNode.h; sourceTree = "<group>"; };
+		91B56CDF1A3966EF005B42E9 /* HudNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HudNode.m; sourceTree = "<group>"; };
+		91B56CE11A397342005B42E9 /* GameOverNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverNode.h; sourceTree = "<group>"; };
+		91B56CE21A397342005B42E9 /* GameOverNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +109,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				912BF7D31A3957FB002FBE0C /* AVFoundation.framework in Frameworks */,
+				91852A011A37CD0100A5FEA7 /* Foundation.framework in Frameworks */,
+				918529FF1A37CCF600A5FEA7 /* SpriteKit.framework in Frameworks */,
+				918529FD1A37CCE000A5FEA7 /* UIKit.framework in Frameworks */,
+				918529FB1A37CCD800A5FEA7 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,9 +127,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		912BF7C31A3954CE002FBE0C /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				912BF7CC1A3957E2002FBE0C /* GameOver.mp3 */,
+				912BF7CD1A3957E2002FBE0C /* Gameplay.mp3 */,
+				912BF7CE1A3957E2002FBE0C /* StartScreen.mp3 */,
+				912BF7C41A3954F5002FBE0C /* Damage.caf */,
+				912BF7C51A3954F5002FBE0C /* Explode.caf */,
+				912BF7C61A3954F5002FBE0C /* Laser.caf */,
+				912BF7C71A3954F5002FBE0C /* PressStart.caf */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
 		918529C31A37CC9F00A5FEA7 = {
 			isa = PBXGroup;
 			children = (
+				91852A021A37CD2000A5FEA7 /* Frameworks */,
 				918529CE1A37CC9F00A5FEA7 /* ShootSpace */,
 				918529ED1A37CC9F00A5FEA7 /* ShootSpaceTests */,
 				918529CD1A37CC9F00A5FEA7 /* Products */,
@@ -86,16 +163,32 @@
 		918529CE1A37CC9F00A5FEA7 /* ShootSpace */ = {
 			isa = PBXGroup;
 			children = (
-				918529D31A37CC9F00A5FEA7 /* AppDelegate.h */,
-				918529D41A37CC9F00A5FEA7 /* AppDelegate.m */,
-				918529D61A37CC9F00A5FEA7 /* GameScene.h */,
-				918529D71A37CC9F00A5FEA7 /* GameScene.m */,
-				918529D91A37CC9F00A5FEA7 /* GameScene.sks */,
-				918529DB1A37CC9F00A5FEA7 /* GameViewController.h */,
-				918529DC1A37CC9F00A5FEA7 /* GameViewController.m */,
-				918529DE1A37CC9F00A5FEA7 /* Main.storyboard */,
+				912BF7C31A3954CE002FBE0C /* Sounds */,
+				911C7C331A3926210060E04B /* GroundNode.h */,
+				911C7C341A3926210060E04B /* GroundNode.m */,
+				91B56CE11A397342005B42E9 /* GameOverNode.h */,
+				91B56CE21A397342005B42E9 /* GameOverNode.m */,
+				91B56CDE1A3966EF005B42E9 /* HudNode.h */,
+				91B56CDF1A3966EF005B42E9 /* HudNode.m */,
+				911C7C301A39215A0060E04B /* SpaceDogNode.h */,
+				911C7C311A39215A0060E04B /* SpaceDogNode.m */,
+				911C7C2D1A391F3F0060E04B /* Utility.h */,
+				911C7C2E1A391F3F0060E04B /* Utility.m */,
+				911C7C291A3912CD0060E04B /* ProjectileNode.h */,
+				911C7C2A1A3912CD0060E04B /* ProjectileNode.m */,
+				91852A131A38251100A5FEA7 /* NinjaNode.h */,
+				91852A141A38251100A5FEA7 /* NinjaNode.m */,
+				91852A071A37D9E200A5FEA7 /* GamePlayScene.m */,
+				91852A061A37D9E200A5FEA7 /* GamePlayScene.h */,
+				91852A031A37D5A900A5FEA7 /* GameTitleScene.h */,
+				91852A041A37D5A900A5FEA7 /* GameTitleScene.m */,
+				91852A0D1A37FA0000A5FEA7 /* MachineNode.h */,
+				91852A0E1A37FA0000A5FEA7 /* MachineNode.m */,
+				912BF7D81A396246002FBE0C /* Explosion.sks */,
+				912BF7D91A396246002FBE0C /* spark.png */,
 				918529E11A37CC9F00A5FEA7 /* Images.xcassets */,
 				918529E31A37CC9F00A5FEA7 /* LaunchScreen.xib */,
+				91852A0B1A37F71800A5FEA7 /* Spritesa_01.atlas */,
 				918529CF1A37CC9F00A5FEA7 /* Supporting Files */,
 			);
 			path = ShootSpace;
@@ -104,6 +197,12 @@
 		918529CF1A37CC9F00A5FEA7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				918529DE1A37CC9F00A5FEA7 /* Main.storyboard */,
+				918529D31A37CC9F00A5FEA7 /* AppDelegate.h */,
+				918529D41A37CC9F00A5FEA7 /* AppDelegate.m */,
+				918529D91A37CC9F00A5FEA7 /* GameScene.sks */,
+				918529DB1A37CC9F00A5FEA7 /* GameViewController.h */,
+				918529DC1A37CC9F00A5FEA7 /* GameViewController.m */,
 				918529D01A37CC9F00A5FEA7 /* Info.plist */,
 				918529D11A37CC9F00A5FEA7 /* main.m */,
 			);
@@ -125,6 +224,18 @@
 				918529EF1A37CC9F00A5FEA7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91852A021A37CD2000A5FEA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				912BF7D21A3957FB002FBE0C /* AVFoundation.framework */,
+				91852A001A37CD0100A5FEA7 /* Foundation.framework */,
+				918529FE1A37CCF600A5FEA7 /* SpriteKit.framework */,
+				918529FC1A37CCE000A5FEA7 /* UIKit.framework */,
+				918529FA1A37CCD800A5FEA7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,10 +318,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				912BF7CA1A3954F5002FBE0C /* Laser.caf in Resources */,
 				918529E51A37CC9F00A5FEA7 /* LaunchScreen.xib in Resources */,
+				91852A0C1A37F71800A5FEA7 /* Spritesa_01.atlas in Resources */,
+				912BF7DB1A396246002FBE0C /* spark.png in Resources */,
 				918529E21A37CC9F00A5FEA7 /* Images.xcassets in Resources */,
+				912BF7CF1A3957E2002FBE0C /* GameOver.mp3 in Resources */,
+				912BF7DA1A396246002FBE0C /* Explosion.sks in Resources */,
+				912BF7C81A3954F5002FBE0C /* Damage.caf in Resources */,
 				918529DA1A37CC9F00A5FEA7 /* GameScene.sks in Resources */,
 				918529E01A37CC9F00A5FEA7 /* Main.storyboard in Resources */,
+				912BF7CB1A3954F5002FBE0C /* PressStart.caf in Resources */,
+				912BF7C91A3954F5002FBE0C /* Explode.caf in Resources */,
+				912BF7D01A3957E2002FBE0C /* Gameplay.mp3 in Resources */,
+				912BF7D11A3957E2002FBE0C /* StartScreen.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,8 +351,17 @@
 			files = (
 				918529DD1A37CC9F00A5FEA7 /* GameViewController.m in Sources */,
 				918529D51A37CC9F00A5FEA7 /* AppDelegate.m in Sources */,
-				918529D81A37CC9F00A5FEA7 /* GameScene.m in Sources */,
+				911C7C2B1A3912CD0060E04B /* ProjectileNode.m in Sources */,
+				91B56CE31A397342005B42E9 /* GameOverNode.m in Sources */,
+				91852A081A37D9E200A5FEA7 /* GamePlayScene.m in Sources */,
+				911C7C2F1A391F3F0060E04B /* Utility.m in Sources */,
+				911C7C321A39215A0060E04B /* SpaceDogNode.m in Sources */,
+				91852A151A38251100A5FEA7 /* NinjaNode.m in Sources */,
+				91852A051A37D5A900A5FEA7 /* GameTitleScene.m in Sources */,
+				911C7C351A3926210060E04B /* GroundNode.m in Sources */,
 				918529D21A37CC9F00A5FEA7 /* main.m in Sources */,
+				91852A0F1A37FA0000A5FEA7 /* MachineNode.m in Sources */,
+				91B56CE01A3966EF005B42E9 /* HudNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +552,7 @@
 				918529F61A37CC9F00A5FEA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		918529F71A37CC9F00A5FEA7 /* Build configuration list for PBXNativeTarget "ShootSpaceTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +561,7 @@
 				918529F91A37CC9F00A5FEA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

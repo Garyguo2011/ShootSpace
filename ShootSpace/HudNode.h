@@ -10,4 +10,13 @@
 
 @interface HudNode : SKSpriteNode
 
+@property (nonatomic) NSInteger lives;
+@property (nonatomic) NSInteger score;
+
++ (instancetype) hudAtPosition: (CGPoint) position inFrame: (CGRect) frame;
+
+- (void) addPoints: (NSInteger) points;
+- (BOOL) loseLife;
+
+
 @end
